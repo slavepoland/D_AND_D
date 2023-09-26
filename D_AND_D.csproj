@@ -1,0 +1,222 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <AssemblyName>D_AND_D</AssemblyName>
+    <Authors>Irek Wręczycki</Authors>
+    <Company>Dom</Company>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="img\**" />
+    <EmbeddedResource Remove="img\**" />
+    <None Remove="img\**" />
+    <Page Remove="img\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="img\k20_1.png" />
+    <Content Include="img\k20_10.png" />
+    <Content Include="img\k20_11.png" />
+    <Content Include="img\k20_12.png" />
+    <Content Include="img\k20_13.png" />
+    <Content Include="img\k20_14.png" />
+    <Content Include="img\k20_15.png" />
+    <Content Include="img\k20_16.png" />
+    <Content Include="img\k20_17.png" />
+    <Content Include="img\k20_18.png" />
+    <Content Include="img\k20_19.png" />
+    <Content Include="img\k20_2.png" />
+    <Content Include="img\k20_20.png" />
+    <Content Include="img\k20_3.png" />
+    <Content Include="img\k20_4.png" />
+    <Content Include="img\k20_5.png" />
+    <Content Include="img\k20_6.png" />
+    <Content Include="img\k20_7.png" />
+    <Content Include="img\k20_8.png" />
+    <Content Include="img\k20_9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_12.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_11.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_10.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_8.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_7.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k12_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k10_10.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k10_9.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k10_8.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k10_7.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k10_6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k10_5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k10_4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k10_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k10_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k10_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k8_8.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k8_7.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k8_6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k8_5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k8_4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k8_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k8_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k8_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k6_6.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k6_5.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k6_4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k6_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k6_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k6_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k4_4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k4_3.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k4_2.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="img\k4_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DocumentFormat.OpenXml" Version="2.12.3" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Resource1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resource1.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resource1.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
